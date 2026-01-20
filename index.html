@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style/stylesheet.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Portfolio | Georgia Rawson</title>
+</head>
+<body>
+    <nav class="navbar">
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </nav>
+     <header>
+    <img src="images/Logo.png" alt="Logo" id="logo">
+    </header>
+
+   
+<section class="about" id="about">
+    <img class="headshot" src="images/headshot.jpg" width = "150" alt = "A headshot of Georgia Rawson">
+    <h2 class="about">About Me</h2>
+    <p class="about">Hello! I'm Georgia. After taking a career break to care for my three children, I decided to channel my passion for learning and structure into Full-Stack Web Development. 
+    Caring for two neurodiverse children has made me skilled at accessibility and clear communication. It has also made me incredibly adaptable - if I can manage a household of 5 I can definitely manage a codebase. 
+I am currently deep in a Full-Stack bootcamp, refining my skills in HTML, CSS, Python and JavaScript. I am eager to bring my blend of life experience and technical training to a dev team.</p>
+</section>  
+<h2 class="projects" id="projects">What I'm working on!</h2> 
+<article class="project1">
+    <h3>A Tenant App</h3> 
+    <img src="images/project1.jpg" width="150px" alt="A phone showing a tenant app">
+    <p>
+        Ever been frustrated as a tenant trying to find documents or report maintance issues? I'm working on an all-in-one tenant management platform designed to centralise the rental experience. The app streamlines rental living by consolidating secure document storage, real-time maintence reporting, and automated rent reminders into a single interface. 
+    </p>
+</article>
+<article class = "project2">
+    <h3>Second Project</h3>
+    <img src="images/project 2.jpg" width="150px" alt="a photo of VS code showing project 2">
+    <p>
+        A second project which is yet to be determined but will use the skills I learn throughout this bootcamp.
+    </p>
+</article>  
+<section class="contact" id="contact">
+    <h3 class="contact">My Contact Details</h3>
+    <p class="contact">Phone:<a class="contact" href="tel:07792425976" target="_blank">07792425976</a></p>
+    <p class="contact">Email:<a class="contact" href="mailto:georgiaisabellawatson@gmail.com" target="_blank"> georgiaisabellawatson@gmail.com</a></p>
+    <p class="contact">LinkedIn:<a class="contact" href="https://www.linkedin.com/in/georgia-rawson-b14830392/" target="_blank"> See my profile</a></p>
+</section>
+
+<h3 class="form">Reach Out!</h3>
+<form class="form" action="submit.php" method="post">
+    <br>  
+    <input type = "text" placeholder="Name:" required>
+    <br>
+    <input type = "email" placeholder="Email:" required>
+    <br>
+    <input type = "tel" placeholder="Phone:" required>
+    <br>
+    <textarea id="message" name="message" placeholder="Add a message:" rows="5" cols="22"></textarea>
+    <legend>Your preferred contact method:</legend>
+
+  <div>
+    <input type="checkbox" id="email" name="email" checked />
+    <label for="email">Email</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="phone" name="phone" />
+    <label for="phone">Phone</label>
+  </div>
+</fieldset>
+   <input type="submit" value="Submit" class="submit-button"> </button>
+</form> 
+<br>
+<footer>
+<p>
+    © 2026 Georgia Rawson. All rights reserved.
+</p>
+</footer>
+</body>
+</html>
