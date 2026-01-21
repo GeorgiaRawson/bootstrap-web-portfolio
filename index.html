@@ -189,32 +189,29 @@
           </div>
         </section>
 <div class="container">
-    <div class="row">
+    <div class="row mt-5">
+        <h3>Reach Out!</h3>
         <div class="col-md-5">
-            <form class="form" action="submit.php" method="post">
-    <br>  
-    <input type = "text" placeholder="Name:" required>
-    <br>
-    <input type = "email" placeholder="Email:" required>
-    <br>
-    <input type = "tel" placeholder="Phone:" required>
-    <br>
-    <textarea id="message" name="message" placeholder="Add a message:" rows="5" cols="22"></textarea>
-    <legend>Your preferred contact method:</legend>
-
-  <div>
-    <input type="checkbox" id="email" name="email" checked />
-    <label for="email">Email</label>
+          <form>
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name">
+  </div>           
+  <div class="mb-3">
+    <label for="emailadress" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="email">
   </div>
-
-  <div>
-    <input type="checkbox" id="phone" name="phone" />
-    <label for="phone">Phone</label>
+  <div class="mb-3">
+    <label for="phone" class="form-label">Telephone</label>
+    <input type="tel" class="form-control" id="phone">
   </div>
-</fieldset>
-   <input type="submit" value="Submit" class="submit-button"> </button>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="agree">
+    <label class="form-check-label" for="agree">I agree to be contacted by Georgia Rawson</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-        </div>
+    </div>
         <div class="col-md-7">
 
         </div>
