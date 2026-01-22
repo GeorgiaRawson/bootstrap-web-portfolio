@@ -33,3 +33,12 @@ header {
     color: var(--highlight);
     transform: scale(1.2);
 }
+.navbar {
+    background-color: var(--highlight);
+}
+.nav-link {
+    transition: 0.3sec ease;
+}
+.nav-link:hover {
+    transform: scale(1.2);
+}
