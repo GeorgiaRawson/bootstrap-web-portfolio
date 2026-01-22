@@ -2,158 +2,19 @@
     --primary-color: #EDE3D7; 
     --accent-color: #382913;
     --main-fc: #382913;
+    --highligh: #A9707C;
 }
-*{
-    margin: 0;
-    padding:0;
-    font-family: Verdana;
-    color: var(--main-fc);
+#web-dev {
+    color: var(--highligh) !important;
 }
 header {
-    text-align: center;
-    background-color: var(--primary-color);
-    width:100%;
+    background-color: var(--primary-color) !important;
 }
-#logo {
-    width: 400px;
-    height: auto;
+ 
+header a {
+    background-color: var(--accent-color) !important;
+    border: #A9707C !important;
 }
-.navbar {
-    position:sticky;
-    top:0;
-}
-.nav-links {
-    padding:10px 0px 20px 0px;
-    text-align: center;
-    background-color: var(--primary-color);
-}
-.nav-links li {
-    display:inline-block;
-    margin-right: 20px;
-}
-.nav-links a {
-    color: var(--main-fc);
-    font-weight: bold;
-    text-decoration: none;
-}
-.nav-links a:hover {
-    color: #AD906E;
-}
-section .about {
-    text-align: left;
-    padding: 50px 20px;
-    width: 100%;
-    overflow: auto;
-}
-.about {
-    padding: 50px;
-    overflow:auto;
-}
-.headshot{
-    float: left;
-    width: 300px;
-    margin-right:40px; 
-    border-radius: 50%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-
-}
-.about h2, .about p {
-   max-width:600px;
-}
-article {
-    clear:both;
-    padding-top:20px;
-}
-
-p {
-    width:100%;
-    padding: 20px 0px;
-    line-height:1.6;
-}
-.projects {
-    text-align: center;
-    padding: 20px;
-    background-color: #382913;
-    color:  var(--primary-color);
-    position: top 50px;
-    display: block;
-    width:100%;
-    border-radius: 15px;
-    margin:10px;
-    overflow: hidden;
-}
-.project1, .project2 {
-    display:inline-block;
-    vertical-align: top;
-    width: 45%;
-    margin: 3% 1%;
-    text-align: center;
-    box-sizing: border-box;
-    background-color:var(--primary-color);
-    padding: 8px;
-    border-radius: 15px;
-}
-.project2 h3, .project1 h3 {
-    padding: 2%;
-}
-.project1 img, .project2 img 
-{
-    border-radius: 15px;
-}
-
-section .contact {
-    margin:0;
-    padding:5px;
-    width:100%;
-    background-color: var(--accent-color);
-    color: var(--primary-color);
-    text-decoration: none;
-}
-section.contact a:hover {
-     background-color: #AD906E;
-}
-
-.form {
-    background-color: var(--primary-color);
-    padding: 9px;
-    max-width: 400px;
-    margin: 0 auto;
-    text-align:center ;
-    border-radius: 8px;
-}
-input, textarea {
-    padding: 5px;
-    margin: 10px 0px;
-    box-sizing: border-box;
-    border-radius: 8px;
-    border-color: var(--primary-color);
-    color: var(--main-fc)
-}
-textarea {
-    transition: width 0.4s ease-in-out;
-}
-textarea:focus {
-    width: 100%;
-}
-input {
-    transition: width 0.4s ease-in-out;
-}
-input:focus {
-  width: 100%;
-}
-.submit-button {
-    background-color: var(--accent-color);
-    padding: 10px 20px;
-    border: none;
-    color: var(--primary-color)
-}
-.submit-button:hover {
-    background-color: var(--primary-color);
-    color: var(--accent-color);
-}
-
-footer {
-    padding: 5px;
-    font-size: 10px; 
-    margin: 0 auto;   
+header a:hover {
+    color: var(--highligh) !important;
 }
