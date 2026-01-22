@@ -2,19 +2,34 @@
     --primary-color: #EDE3D7; 
     --accent-color: #382913;
     --main-fc: #382913;
-    --highligh: #A9707C;
+    --highlight: #A9707C;
 }
 #web-dev {
-    color: var(--highligh) !important;
+    color: var(--highlight) !important;
 }
 header {
     background-color: var(--primary-color) !important;
 }
  
-header a {
-    background-color: var(--accent-color) !important;
-    border: #A9707C !important;
+#icon {
+    color: var(--highlight) !important;
 }
-header a:hover {
-    color: var(--highligh) !important;
+#pill {
+    background-color: var(--highlight);
+    color: var(--main-fc);
+    transition: 0.3sec ease;S
+}
+#pill:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.btn {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    transition: 0.3sec ease;
+}
+
+.btn:hover {
+    color: var(--highlight);
+    transform: scale(1.2);
 }
