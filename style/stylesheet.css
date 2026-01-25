@@ -17,7 +17,7 @@ header {
 #pill {
     background-color: var(--highlight);
     color: var(--main-fc);
-    transition: 0.3sec ease;S
+    transition: 0.3sec ease;
 }
 #pill:hover {
     transform: scale(1.2) rotate(5deg);
