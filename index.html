@@ -194,15 +194,15 @@
         <form>
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name">
+              <input type="text" class="form-control" id="share" title="We won't share your details with anyone else.">
             </div>           
             <div class="mb-3">
               <label for="emailadress" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email">
+              <input type="email" class="form-control" id="share" title="We won't share your details with anyone else.">
             </div>
             <div class="mb-3">
               <label for="phone" class="form-label">Telephone</label>
-              <input type="tel" class="form-control" id="phone">
+              <input type="tel" class="form-control" id="share" title="We won't share your details with anyone else.">
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="agree">
@@ -228,6 +228,13 @@
   <footer class="text-center py">
     <div class="container px-5 my-2">Copyright &copy; 2026 Georgia Rawson</div>
   </footer>
-
+ <script>
+  $(document).ready(functio() {
+  $( function() {
+    $( #share ).tooltip();
+  } );
+   
+ });
+ </script>
 </body>
 </html>
