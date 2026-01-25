@@ -42,3 +42,14 @@ header {
 .nav-link:hover {
     transform: scale(1.2);
 }
+.contact-item {
+    text-decoration: none;
+    color: black;
+}
+.contact-item:hover {
+    color: var(--highlight);
+}
+
+footer {
+    font-size: 10px;
+}
